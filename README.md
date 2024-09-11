@@ -21,4 +21,4 @@ Linear Regression: This is the simplest model used to predict continuous outcome
 
 e) Model Evaluation
 Evaluate the performance of models using metrics like:
-R-squared (R²): This measures how well the independent variables explain the variance in medical charges.
+Root Mean Squared Error (RMSE): This measures how well the independent variables explain the variance in medical charges.
