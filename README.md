@@ -7,19 +7,20 @@ The goal is to predict medical charges (from an insurance dataset) based on vari
 ### Dataset
 Dataset can be found on Kaggle [dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
+### Methodology
 a) Data Collection
-Obtain the dataset, either from publicly available sources or from insurance records.
-Example datasets can be found on platforms like Kaggle.
+The dataset was obtained from publicly available sources (Kaggle), containing records of individuals’ medical charges along with features like age, BMI, smoking status, and region.
 b) Data Preprocessing
-Handling Missing Values: Check for and handle any missing data in the dataset.
-Encoding Categorical Variables: Convert categorical variables (e.g., "sex", "smoker", "region") into numerical formats using techniques like one-hot encoding or label encoding.
-Feature Scaling: Apply scaling methods (e.g., standardization or normalization) to numerical data (like age and BMI) to bring them into the same range.
-Train-Test Split: Divide the dataset into training and testing sets (usually 80-20 or 70-30).
+Handling Missing Values: Identified and addressed any missing data to ensure data integrity.
+
+Encoding Categorical Variables: Converted categorical variables (e.g., "sex", "smoker", "region") into numerical format using one-hot encoding.
+
+Feature Scaling: Applied standardization or normalization to numerical features like age and BMI to bring them into a common range.
+
+Train-Test Split: Divided the dataset into training and testing sets (typically 80-20) for model evaluation.
 
 c) Model Building
-Regression Models: Since the target variable (charges) is continuous, regression models are typically used.
-Linear Regression: This is the simplest model used to predict continuous outcomes.
+Implemented Linear Regression to predict medical charges based on available features, as it is well-suited for continuous target variables.
 
-e) Model Evaluation
-Evaluate the performance of models using metrics like:
-Root Mean Squared Error (RMSE): This measures how well the independent variables explain the variance in medical charges.
+d) Model Evaluation
+Root Mean Squared Error (RMSE): Assessed the model’s accuracy by measuring the average squared differences between predicted and actual values.
