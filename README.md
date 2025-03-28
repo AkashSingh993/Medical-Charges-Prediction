@@ -17,7 +17,7 @@ Encoding Categorical Variables: Converted categorical variables (e.g., "sex", "s
 
 Feature Scaling: Applied standardization or normalization to numerical features like age and BMI to bring them into a common range.
 
-Train-Test Split: Divided the dataset into training and testing sets (typically 80-20) for model evaluation.
+Train-Test Split: Divided the dataset into training and testing sets (80-20) for model evaluation.
 
 c) Model Building
 Implemented Linear Regression to predict medical charges based on available features, as it is well-suited for continuous target variables.
