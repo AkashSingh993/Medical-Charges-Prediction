@@ -1,12 +1,11 @@
 # Medical Charges Prediction
 
-A Medical Charges Prediction project typically involves predicting the cost of medical services for patients based on various factors. This is important for insurance companies, healthcare providers, and patients to estimate expenses and make informed financial decisions. Below is a detailed breakdown of how such a project is structured :
+### Introduction
 
-1. Problem Definition
-The goal is to predict medical charges (usually from an insurance dataset) based on various features of patients such as age, sex, BMI (Body Mass Index), number of children, smoking habits, and region. The charges represent the cost incurred by an individual on healthcare services.
+The goal is to predict medical charges (from an insurance dataset) based on various features of patients such as age, sex, BMI (Body Mass Index), number of children, smoking habits, and region. The model aims to predict the healthcare costs that future customers might incur based on historical data.
 
-3. Steps Involved in the Project
-Here’s a step-by-step guide to implementing a Medical Charges Prediction project:
+### Dataset
+Dataset can be found on Kaggle [dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 a) Data Collection
 Obtain the dataset, either from publicly available sources or from insurance records.
