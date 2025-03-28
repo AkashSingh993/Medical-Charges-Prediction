@@ -1,3 +1,5 @@
+# Medical Charges Prediction
+
 A Medical Charges Prediction project typically involves predicting the cost of medical services for patients based on various factors. This is important for insurance companies, healthcare providers, and patients to estimate expenses and make informed financial decisions. Below is a detailed breakdown of how such a project is structured :
 
 1. Problem Definition
